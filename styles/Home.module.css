@@ -107,11 +107,15 @@
 .main article {
   display: flex;
   flex-direction: row;
-  align-items: center;
+  align-items: flex-start;
+}
+
+.main p {
+  flex: 1;
 }
 
 .main article svg {
-  width: 1000px;
+  width: 8rem;
 }
 
 @media screen and (max-width: 720px) {
@@ -126,6 +130,7 @@
 
   .main article {
     flex-direction: column-reverse;
+    align-items: center;
   }
 
   .main article svg {

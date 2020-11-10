@@ -116,9 +116,19 @@ export default function Home() {
               imperdiet ut a urna. Vivamus sit amet ultrices massa, non
               pellentesque mauris. Cras rutrum ullamcorper velit vitae mollis.
               In nec ante dignissim, vestibulum dolor sed, varius sapien.
-              Praesent eu gravida felis. Suspendisse nec malesuada felis. Donec
-              nec dictum augue. Suspendisse quam nisl, congue ac eleifend id,
-              vulputate at purus. Morbi in lorem nibh.
+              Praesent eu gravida feliLorem ipsum dolor sit amet, consectetur
+              adipiscing elit. Sed suscipit urna sit amet elit iaculis aliquam
+              sit amet non mi. Fusce sit amet nunc bibendum, pretium est vel,
+              mattis orci. Proin semper congue vestibulum. Nulla porttitor ipsum
+              pharetra nisl gravida imperdiet ut a urna. Vivamus sit amet
+              ultrices massa, non pellentesque mauris. Cras rutrum ullamcorper
+              velit vitae mollis. In nec ante dignissim, vestibulum dolor sed,
+              varius sapien. Praesent eu gravida felis. Suspendisse nec
+              malesuada felis. Donec nec dictum augue. Suspendisse quam nisl,
+              congue ac eleifend id, vulputate at purus. Morbi in lorem nibh.s.
+              Suspendisse nec malesuada felis. Donec nec dictum augue.
+              Suspendisse quam nisl, congue ac eleifend id, vulputate at purus.
+              Morbi in lorem nibh.
             </p>
             <CVImg />
           </article>
@@ -134,7 +144,26 @@ export default function Home() {
               In nec ante dignissim, vestibulum dolor sed, varius sapien.
               Praesent eu gravida felis. Suspendisse nec malesuada felis. Donec
               nec dictum augue. Suspendisse quam nisl, congue ac eleifend id,
-              vulputate at purus. Morbi in lorem nibh.
+              vulputate at purus. Morbi in lorem nibh.Lorem ipsum dolor sit
+              amet, consectetur adipiscing elit. Sed suscipit urna sit amet elit
+              iaculis aliquam sit amet non mi. Fusce sit amet nunc bibendum,
+              pretium est vel, mattis orci. Proin semper congue vestibulum.
+              Nulla porttitor ipsum pharetra nisl gravida imperdiet ut a urna.
+              Vivamus sit amet ultrices massa, non pellentesque mauris. Cras
+              rutrum ullamcorper velit vitae mollis. In nec ante dignissim,
+              vestibulum dolor sed, varius sapien. Praesent eu gravida felis.
+              Suspendisse nec malesuada felis. Donec nec dictum augue.
+              Suspendisse quam nisl, congue ac eleifend id, vulputate at purus.
+              Morbi in lorem nibh.Lorem ipsum dolor sit amet, consectetur
+              adipiscing elit. Sed suscipit urna sit amet elit iaculis aliquam
+              sit amet non mi. Fusce sit amet nunc bibendum, pretium est vel,
+              mattis orci. Proin semper congue vestibulum. Nulla porttitor ipsum
+              pharetra nisl gravida imperdiet ut a urna. Vivamus sit amet
+              ultrices massa, non pellentesque mauris. Cras rutrum ullamcorper
+              velit vitae mollis. In nec ante dignissim, vestibulum dolor sed,
+              varius sapien. Praesent eu gravida felis. Suspendisse nec
+              malesuada felis. Donec nec dictum augue. Suspendisse quam nisl,
+              congue ac eleifend id, vulputate at purus. Morbi in lorem nibh.
             </p>
             <LinuxImg />
           </article>
