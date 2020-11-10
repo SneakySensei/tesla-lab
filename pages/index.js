@@ -1,65 +1,124 @@
-import Head from 'next/head'
-import styles from '../styles/Home.module.css'
+import Head from "next/head";
+import styles from "../styles/Home.module.css";
+import Link from "next/link";
+import { useEffect } from "react";
 
 export default function Home() {
   return (
-    <div className={styles.container}>
+    <div>
       <Head>
-        <title>Create Next App</title>
+        <title>Tesla Lab</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <main className={styles.main}>
-        <h1 className={styles.title}>
-          Welcome to <a href="https://nextjs.org">Next.js!</a>
-        </h1>
+      <header className={styles.headerContainer}>
+        <div className={styles.header}>
+          <section>
+            <div className={styles.title}>Tesla Lab.</div>
+            <div className={styles.subtitle}>
+              A team of future engineers who love to create awesome things here
+              at SRM Institute of Science and Technology.
+            </div>
+          </section>
+          <img src="/images/iot.png" />
 
-        <p className={styles.description}>
-          Get started by editing{' '}
-          <code className={styles.code}>pages/index.js</code>
-        </p>
-
-        <div className={styles.grid}>
-          <a href="https://nextjs.org/docs" className={styles.card}>
-            <h3>Documentation &rarr;</h3>
-            <p>Find in-depth information about Next.js features and API.</p>
-          </a>
-
-          <a href="https://nextjs.org/learn" className={styles.card}>
-            <h3>Learn &rarr;</h3>
-            <p>Learn about Next.js in an interactive course with quizzes!</p>
-          </a>
-
-          <a
-            href="https://github.com/vercel/next.js/tree/master/examples"
-            className={styles.card}
-          >
-            <h3>Examples &rarr;</h3>
-            <p>Discover and deploy boilerplate example Next.js projects.</p>
-          </a>
-
-          <a
-            href="https://vercel.com/import?filter=next.js&utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-            className={styles.card}
-          >
-            <h3>Deploy &rarr;</h3>
-            <p>
-              Instantly deploy your Next.js site to a public URL with Vercel.
-            </p>
+          <a href="#main" id="main" className={styles.scrollDown}>
+            Scroll Down
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+            >
+              <path d="M16.293 9.293L12 13.586 7.707 9.293 6.293 10.707 12 16.414 17.707 10.707z"></path>
+            </svg>
           </a>
         </div>
+      </header>
+      <main className={styles.main}>
+        <section>
+          <h1>ABOUT US</h1>
+          <p>
+            Working on cutting edge technology, connecting multiple devices,
+            appliances, electronics and other ‘things’ to proliferate the
+            standards of day-to-day life. Researching on Smart Grids and load
+            forecasting to improve transmission system and decrease power
+            losses.
+          </p>
+          <h1>SUB-DOMAINS</h1>
+          <p>
+            At Tesla Lab we work on projects and research work from various
+            disciplines. Tesla Lab supports multidisciplinary work which means
+            no one is restricted to just one area of expertise. This leads to
+            better overall learning for all our members.
+          </p>
+          <h3>> Embedded Systems</h3>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
+            suscipit urna sit amet elit iaculis aliquam sit amet non mi. Fusce
+            sit amet nunc bibendum, pretium est vel, mattis orci. Proin semper
+            congue vestibulum. Nulla porttitor ipsum pharetra nisl gravida
+            imperdiet ut a urna. Vivamus sit amet ultrices massa, non
+            pellentesque mauris. Cras rutrum ullamcorper velit vitae mollis. In
+            nec ante dignissim, vestibulum dolor sed, varius sapien. Praesent eu
+            gravida felis. Suspendisse nec malesuada felis. Donec nec dictum
+            augue. Suspendisse quam nisl, congue ac eleifend id, vulputate at
+            purus. Morbi in lorem nibh.
+          </p>
+          <h3>> Power Electronics</h3>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
+            suscipit urna sit amet elit iaculis aliquam sit amet non mi. Fusce
+            sit amet nunc bibendum, pretium est vel, mattis orci. Proin semper
+            congue vestibulum. Nulla porttitor ipsum pharetra nisl gravida
+            imperdiet ut a urna. Vivamus sit amet ultrices massa, non
+            pellentesque mauris. Cras rutrum ullamcorper velit vitae mollis. In
+            nec ante dignissim, vestibulum dolor sed, varius sapien. Praesent eu
+            gravida felis. Suspendisse nec malesuada felis. Donec nec dictum
+            augue. Suspendisse quam nisl, congue ac eleifend id, vulputate at
+            purus. Morbi in lorem nibh.
+          </p>
+          <h3>> Internet of Things</h3>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
+            suscipit urna sit amet elit iaculis aliquam sit amet non mi. Fusce
+            sit amet nunc bibendum, pretium est vel, mattis orci. Proin semper
+            congue vestibulum. Nulla porttitor ipsum pharetra nisl gravida
+            imperdiet ut a urna. Vivamus sit amet ultrices massa, non
+            pellentesque mauris. Cras rutrum ullamcorper velit vitae mollis. In
+            nec ante dignissim, vestibulum dolor sed, varius sapien. Praesent eu
+            gravida felis. Suspendisse nec malesuada felis. Donec nec dictum
+            augue. Suspendisse quam nisl, congue ac eleifend id, vulputate at
+            purus. Morbi in lorem nibh.
+          </p>
+          <h3>> Computer Vision</h3>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
+            suscipit urna sit amet elit iaculis aliquam sit amet non mi. Fusce
+            sit amet nunc bibendum, pretium est vel, mattis orci. Proin semper
+            congue vestibulum. Nulla porttitor ipsum pharetra nisl gravida
+            imperdiet ut a urna. Vivamus sit amet ultrices massa, non
+            pellentesque mauris. Cras rutrum ullamcorper velit vitae mollis. In
+            nec ante dignissim, vestibulum dolor sed, varius sapien. Praesent eu
+            gravida felis. Suspendisse nec malesuada felis. Donec nec dictum
+            augue. Suspendisse quam nisl, congue ac eleifend id, vulputate at
+            purus. Morbi in lorem nibh.
+          </p>
+          <h3>> Linux and Open Source</h3>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
+            suscipit urna sit amet elit iaculis aliquam sit amet non mi. Fusce
+            sit amet nunc bibendum, pretium est vel, mattis orci. Proin semper
+            congue vestibulum. Nulla porttitor ipsum pharetra nisl gravida
+            imperdiet ut a urna. Vivamus sit amet ultrices massa, non
+            pellentesque mauris. Cras rutrum ullamcorper velit vitae mollis. In
+            nec ante dignissim, vestibulum dolor sed, varius sapien. Praesent eu
+            gravida felis. Suspendisse nec malesuada felis. Donec nec dictum
+            augue. Suspendisse quam nisl, congue ac eleifend id, vulputate at
+            purus. Morbi in lorem nibh.
+          </p>
+        </section>
       </main>
-
-      <footer className={styles.footer}>
-        <a
-          href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Powered by{' '}
-          <img src="/vercel.svg" alt="Vercel Logo" className={styles.logo} />
-        </a>
-      </footer>
     </div>
-  )
+  );
 }

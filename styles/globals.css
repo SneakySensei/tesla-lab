@@ -2,15 +2,153 @@ html,
 body {
   padding: 0;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  font-family: "Open Sans", Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans,
+    Droid Sans, Helvetica Neue, sans-serif;
 }
 
-a {
-  color: inherit;
-  text-decoration: none;
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Montserrat", sans-serif;
+}
+
+h1 {
+  position: relative;
+  display: inline-block;
+  z-index: 0;
+  margin: 0;
+}
+
+h1::after {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  z-index: -1;
+  width: 100%;
+  height: 0.5rem;
+  background: #acd7eca1;
+  content: "";
+  mix-blend-mode: exclusion;
+  transform: translateY(-130%);
+  transition: transform 200ms ease-out, height 300ms ease-out;
+}
+
+h1:hover::after {
+  transform: translateY(-115%);
+  height: 1.5rem;
 }
 
 * {
   box-sizing: border-box;
+  cursor: default;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  scrollbar-width: none;
+}
+
+body::-webkit-scrollbar {
+  display: none;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@400&family=Montserrat:wght@700&family=Oxygen:wght@400&family=Roboto:wght@400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&display=swap");
+nav {
+  position: fixed;
+  z-index: 100;
+  left: 0;
+  right: 0;
+  top: 0;
+  padding: 1rem 1rem;
+  font-size: large;
+  font-weight: normal;
+  transition: background-color 250ms ease-out;
+}
+
+nav.solid {
+  background: linear-gradient(210deg, #001f4b, #002f70, #01397a);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+nav .container {
+  position: relative;
+  max-width: 36rem;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+}
+
+nav a {
+  text-decoration: none;
+  color: white;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  fill: white;
+}
+
+nav a span {
+  position: relative;
+}
+
+nav a span::after {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  width: 100%;
+  height: 4px;
+  background: rgba(255, 255, 255, 0.7);
+  content: "";
+  opacity: 0;
+  transition: opacity 0.3s, transform 0.3s;
+  transform: translateY(10px);
+}
+
+nav a span:hover::after,
+span:focus::after {
+  opacity: 1;
+  transform: translateY(0px);
+}
+
+nav a svg {
+  width: 1.7rem;
+  height: 1.7rem;
+  display: none;
+}
+
+nav a .inactive {
+  display: none;
+}
+
+/* TODO DO THIS ON MEDIA QUERY
+nav a span {
+  display: none;
+} */
+
+nav a.active span {
+  font-weight: bold;
+}
+nav a.active span::after {
+  background: rgba(255, 255, 255, 1);
+  opacity: 1;
+  transform: translateY(0px);
+}
+
+@media screen and (max-width: 600px) {
+  nav a svg {
+    display: block;
+  }
+
+  nav a span {
+    display: none;
+  }
 }
