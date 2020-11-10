@@ -166,11 +166,12 @@ footer section {
   margin: 1rem 0;
 }
 
-footer section article {
+footer section a {
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: center;
+  color: white;
 }
 
 footer section svg {

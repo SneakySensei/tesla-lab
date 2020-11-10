@@ -88,7 +88,7 @@ function MyApp({ Component, pageProps, router }) {
       <footer>
         <span>Contact Us</span>
         <section>
-          <article>
+          <a href="https://goo.gl/maps/j9E1McXBEChtxX7A8" target="_blank">
             <svg
               className="w-6 h-6"
               fill="currentColor"
@@ -102,8 +102,8 @@ function MyApp({ Component, pageProps, router }) {
               />
             </svg>
             UB-703, SRMIST, KTR - 603203
-          </article>
-          <article>
+          </a>
+          <a href="mailto:info@nextech.io" target="_blank">
             <svg
               className="w-6 h-6"
               fill="currentColor"
@@ -114,7 +114,7 @@ function MyApp({ Component, pageProps, router }) {
               <path d="M18 8.118l-8 4-8-4V14a2 2 0 002 2h12a2 2 0 002-2V8.118z" />
             </svg>
             info@nextech.io
-          </article>
+          </a>
         </section>
         Made with ❤️️ by Snehil
       </footer>
