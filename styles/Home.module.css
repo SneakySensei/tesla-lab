@@ -104,6 +104,16 @@
   padding: 2rem 1rem;
 }
 
+.main article {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.main article svg {
+  width: 1000px;
+}
+
 @media screen and (max-width: 720px) {
   .header {
     padding: 4rem 2rem;
@@ -112,5 +122,13 @@
 
   .header img {
     width: 80%;
+  }
+
+  .main article {
+    flex-direction: column-reverse;
+  }
+
+  .main article svg {
+    width: 6rem;
   }
 }

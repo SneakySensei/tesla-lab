@@ -1,7 +1,13 @@
 import Head from "next/head";
 import styles from "../styles/Home.module.css";
 import Link from "next/link";
-import { useEffect } from "react";
+import React, { useEffect } from "react";
+
+import EmbeddedImg from "../public/images/embedded.svg";
+import PowerImg from "../public/images/power-electronics.svg";
+import IotImg from "../public/images/iot.svg";
+import CVImg from "../public/images/computer-vision.svg";
+import LinuxImg from "../public/images/linux.svg";
 
 export default function Home() {
   return (
@@ -53,70 +59,85 @@ export default function Home() {
             better overall learning for all our members.
           </p>
           <h3>> Embedded Systems</h3>
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
-            suscipit urna sit amet elit iaculis aliquam sit amet non mi. Fusce
-            sit amet nunc bibendum, pretium est vel, mattis orci. Proin semper
-            congue vestibulum. Nulla porttitor ipsum pharetra nisl gravida
-            imperdiet ut a urna. Vivamus sit amet ultrices massa, non
-            pellentesque mauris. Cras rutrum ullamcorper velit vitae mollis. In
-            nec ante dignissim, vestibulum dolor sed, varius sapien. Praesent eu
-            gravida felis. Suspendisse nec malesuada felis. Donec nec dictum
-            augue. Suspendisse quam nisl, congue ac eleifend id, vulputate at
-            purus. Morbi in lorem nibh.
-          </p>
+          <article>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
+              suscipit urna sit amet elit iaculis aliquam sit amet non mi. Fusce
+              sit amet nunc bibendum, pretium est vel, mattis orci. Proin semper
+              congue vestibulum. Nulla porttitor ipsum pharetra nisl gravida
+              imperdiet ut a urna. Vivamus sit amet ultrices massa, non
+              pellentesque mauris. Cras rutrum ullamcorper velit vitae mollis.
+              In nec ante dignissim, vestibulum dolor sed, varius sapien.
+              Praesent eu gravida felis. Suspendisse nec malesuada felis. Donec
+              nec dictum augue. Suspendisse quam nisl, congue ac eleifend id,
+              vulputate at purus. Morbi in lorem nibh.
+            </p>
+            <EmbeddedImg />
+          </article>
           <h3>> Power Electronics</h3>
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
-            suscipit urna sit amet elit iaculis aliquam sit amet non mi. Fusce
-            sit amet nunc bibendum, pretium est vel, mattis orci. Proin semper
-            congue vestibulum. Nulla porttitor ipsum pharetra nisl gravida
-            imperdiet ut a urna. Vivamus sit amet ultrices massa, non
-            pellentesque mauris. Cras rutrum ullamcorper velit vitae mollis. In
-            nec ante dignissim, vestibulum dolor sed, varius sapien. Praesent eu
-            gravida felis. Suspendisse nec malesuada felis. Donec nec dictum
-            augue. Suspendisse quam nisl, congue ac eleifend id, vulputate at
-            purus. Morbi in lorem nibh.
-          </p>
+          <article>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
+              suscipit urna sit amet elit iaculis aliquam sit amet non mi. Fusce
+              sit amet nunc bibendum, pretium est vel, mattis orci. Proin semper
+              congue vestibulum. Nulla porttitor ipsum pharetra nisl gravida
+              imperdiet ut a urna. Vivamus sit amet ultrices massa, non
+              pellentesque mauris. Cras rutrum ullamcorper velit vitae mollis.
+              In nec ante dignissim, vestibulum dolor sed, varius sapien.
+              Praesent eu gravida felis. Suspendisse nec malesuada felis. Donec
+              nec dictum augue. Suspendisse quam nisl, congue ac eleifend id,
+              vulputate at purus. Morbi in lorem nibh.
+            </p>
+            <PowerImg />
+          </article>
           <h3>> Internet of Things</h3>
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
-            suscipit urna sit amet elit iaculis aliquam sit amet non mi. Fusce
-            sit amet nunc bibendum, pretium est vel, mattis orci. Proin semper
-            congue vestibulum. Nulla porttitor ipsum pharetra nisl gravida
-            imperdiet ut a urna. Vivamus sit amet ultrices massa, non
-            pellentesque mauris. Cras rutrum ullamcorper velit vitae mollis. In
-            nec ante dignissim, vestibulum dolor sed, varius sapien. Praesent eu
-            gravida felis. Suspendisse nec malesuada felis. Donec nec dictum
-            augue. Suspendisse quam nisl, congue ac eleifend id, vulputate at
-            purus. Morbi in lorem nibh.
-          </p>
+          <article>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
+              suscipit urna sit amet elit iaculis aliquam sit amet non mi. Fusce
+              sit amet nunc bibendum, pretium est vel, mattis orci. Proin semper
+              congue vestibulum. Nulla porttitor ipsum pharetra nisl gravida
+              imperdiet ut a urna. Vivamus sit amet ultrices massa, non
+              pellentesque mauris. Cras rutrum ullamcorper velit vitae mollis.
+              In nec ante dignissim, vestibulum dolor sed, varius sapien.
+              Praesent eu gravida felis. Suspendisse nec malesuada felis. Donec
+              nec dictum augue. Suspendisse quam nisl, congue ac eleifend id,
+              vulputate at purus. Morbi in lorem nibh.
+            </p>
+            <IotImg />
+          </article>
           <h3>> Computer Vision</h3>
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
-            suscipit urna sit amet elit iaculis aliquam sit amet non mi. Fusce
-            sit amet nunc bibendum, pretium est vel, mattis orci. Proin semper
-            congue vestibulum. Nulla porttitor ipsum pharetra nisl gravida
-            imperdiet ut a urna. Vivamus sit amet ultrices massa, non
-            pellentesque mauris. Cras rutrum ullamcorper velit vitae mollis. In
-            nec ante dignissim, vestibulum dolor sed, varius sapien. Praesent eu
-            gravida felis. Suspendisse nec malesuada felis. Donec nec dictum
-            augue. Suspendisse quam nisl, congue ac eleifend id, vulputate at
-            purus. Morbi in lorem nibh.
-          </p>
+          <article>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
+              suscipit urna sit amet elit iaculis aliquam sit amet non mi. Fusce
+              sit amet nunc bibendum, pretium est vel, mattis orci. Proin semper
+              congue vestibulum. Nulla porttitor ipsum pharetra nisl gravida
+              imperdiet ut a urna. Vivamus sit amet ultrices massa, non
+              pellentesque mauris. Cras rutrum ullamcorper velit vitae mollis.
+              In nec ante dignissim, vestibulum dolor sed, varius sapien.
+              Praesent eu gravida felis. Suspendisse nec malesuada felis. Donec
+              nec dictum augue. Suspendisse quam nisl, congue ac eleifend id,
+              vulputate at purus. Morbi in lorem nibh.
+            </p>
+            <CVImg />
+          </article>
           <h3>> Linux and Open Source</h3>
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
-            suscipit urna sit amet elit iaculis aliquam sit amet non mi. Fusce
-            sit amet nunc bibendum, pretium est vel, mattis orci. Proin semper
-            congue vestibulum. Nulla porttitor ipsum pharetra nisl gravida
-            imperdiet ut a urna. Vivamus sit amet ultrices massa, non
-            pellentesque mauris. Cras rutrum ullamcorper velit vitae mollis. In
-            nec ante dignissim, vestibulum dolor sed, varius sapien. Praesent eu
-            gravida felis. Suspendisse nec malesuada felis. Donec nec dictum
-            augue. Suspendisse quam nisl, congue ac eleifend id, vulputate at
-            purus. Morbi in lorem nibh.
-          </p>
+          <article>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
+              suscipit urna sit amet elit iaculis aliquam sit amet non mi. Fusce
+              sit amet nunc bibendum, pretium est vel, mattis orci. Proin semper
+              congue vestibulum. Nulla porttitor ipsum pharetra nisl gravida
+              imperdiet ut a urna. Vivamus sit amet ultrices massa, non
+              pellentesque mauris. Cras rutrum ullamcorper velit vitae mollis.
+              In nec ante dignissim, vestibulum dolor sed, varius sapien.
+              Praesent eu gravida felis. Suspendisse nec malesuada felis. Donec
+              nec dictum augue. Suspendisse quam nisl, congue ac eleifend id,
+              vulputate at purus. Morbi in lorem nibh.
+            </p>
+            <LinuxImg />
+          </article>
         </section>
       </main>
     </div>

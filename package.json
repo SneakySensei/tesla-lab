@@ -8,6 +8,7 @@
     "start": "next start"
   },
   "dependencies": {
+    "@svgr/webpack": "^5.4.0",
     "gray-matter": "^4.0.2",
     "next": "10.0.0",
     "react": "17.0.1",
