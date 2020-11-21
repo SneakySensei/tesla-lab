@@ -10,7 +10,7 @@ export default function Team({ syndicates, members }) {
   return (
     <div className={styles.container}>
       <Head>
-        <title>Create Next App</title>
+        <title>Our Team - Tesla Lab</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
