@@ -1,25 +1,24 @@
 ---
-people:
+members:
   - name: "Snehil"
-    role: "Member"
     image: "snehil.jpg"
+    linkedin: "https://www.linkedin.com/in/snehilcodes"
+    github: "https://github.com/sneakysensei"
+    portfolio: "https://snehil.netlify.app/"
 
   - name: "Kishan Kumar"
-    role: "Member"
-    image: ""
+    image: "kishan.jpg"
+    linkedin: "https://www.linkedin.com/in/kishankrs/"
+    github: "https://github.com/kishankrs"
 
-  - name: "Snehil"
-    role: "Member"
-    image: "snehil.jpg"
+syndicates:
+  - name: "Vishwa Hariharan Iyer"
+    image: "vishwa.jpg"
+    linkedin: "https://www.linkedin.com/in/vishwaiyer/"
+    github: "https://github.com/VishwaIyer"
 
-  - name: "Kishan Kumar"
-    role: "Member"
-    image: ""
-  - name: "Snehil"
-    role: "Member"
-    image: "snehil.jpg"
-
-  - name: "Kishan Kumar"
-    role: "Member"
-    image: ""
+  - name: "Puranjay Mohan"
+    image: "puranjay.jpg"
+    linkedin: "https://www.linkedin.com/in/puranjaymohan/"
+    github: "https://github.com/puranjaymohan"
 ---

@@ -58,7 +58,7 @@ export default function Home() {
             no one is restricted to just one area of expertise. This leads to
             better overall learning for all our members.
           </p>
-          <h3>> Embedded Systems</h3>
+          <h3>&gt; Embedded Systems</h3>
           <article>
             <p>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
@@ -74,7 +74,7 @@ export default function Home() {
             </p>
             <EmbeddedImg />
           </article>
-          <h3>> Power Electronics</h3>
+          <h3>&gt; Power Electronics</h3>
           <article>
             <p>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
@@ -90,7 +90,7 @@ export default function Home() {
             </p>
             <PowerImg />
           </article>
-          <h3>> Internet of Things</h3>
+          <h3>&gt; Internet of Things</h3>
           <article>
             <p>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
@@ -106,7 +106,7 @@ export default function Home() {
             </p>
             <IotImg />
           </article>
-          <h3>> Computer Vision</h3>
+          <h3>&gt; Computer Vision</h3>
           <article>
             <p>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
@@ -132,7 +132,7 @@ export default function Home() {
             </p>
             <CVImg />
           </article>
-          <h3>> Linux and Open Source</h3>
+          <h3>&gt; Linux and Open Source</h3>
           <article>
             <p>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
