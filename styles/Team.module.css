@@ -30,6 +30,7 @@
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: center;
+  align-items: flex-start;
   max-width: 1024px;
   margin: 0 auto;
   padding: 1rem 1rem 1.5rem 1rem;
