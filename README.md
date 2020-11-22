@@ -5,26 +5,30 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 First, run the development server:
 
 ```bash
+npm i
 npm run dev
 # or
+yarn
 yarn dev
 ```
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+## Updating the `Our Team` page
 
-## Learn More
+Follow these steps to add/update member details on the Our Team page.
 
-To learn more about Next.js, take a look at the following resources:
+- Open the file `content/members.md`
+- Under the members/syndicates key, add a new entry using the given below
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+```yaml
+members:
+  - name: "John Doe"
+    image: "johndoe.jpg"
+    github: "<github profile link>"
+    linkedin: "<linkedin profile link>"
+    portfolio: "<portfolio link>"
+```
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/import?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+- Place the file `johndoe.jpg` inside `public/images/team/`
+- Commit your changes and push to a new branch using `git push origin master:newBranchName` and start a pull request.
