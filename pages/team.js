@@ -108,8 +108,12 @@ export async function getStaticProps() {
   console.log(team);
   return {
     props: {
-      syndicates: team.syndicates,
-      members: team.members,
+      syndicates: team.syndicates.sort((a, b) => {
+        return a.name.localeCompare(b.name);
+      }),
+      members: team.members.sort((a, b) => {
+        return a.name.localeCompare(b.name);
+      }),
     },
   };
 }
