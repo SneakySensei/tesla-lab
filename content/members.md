@@ -11,10 +11,10 @@ members:
     linkedin: "https://www.linkedin.com/in/kishankrs/"
     github: "https://github.com/kishankrs"
   
-  - name: "Swarnabha Das
+  - name: "Swarnabha Das"
     image: "Swarnabha.jpeg"
     linkedin: "https://www.linkedin.com/in/swarnabha-das-2001official/"
-    github: "www.github.com/sd2001" 
+    github: "https://www.github.com/sd2001" 
 
 syndicates:
   - name: "Vishwa Hariharan Iyer"
