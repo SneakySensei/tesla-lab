@@ -15,6 +15,11 @@ members:
     image: "Swarnabha.jpeg"
     linkedin: "https://www.linkedin.com/in/swarnabha-das-2001official/"
     github: "https://www.github.com/sd2001" 
+    
+  - name: "Gaurav Singh Chandrabhan"
+    image: "Gaurav.jpg"
+    linkedin: "https://www.linkedin.com/in/gaurav-sc/"
+    github: "https://github.com/Gauravchandrabhan"
 
 syndicates:
   - name: "Vishwa Hariharan Iyer"
