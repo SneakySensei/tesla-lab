@@ -105,7 +105,6 @@ export default function Team({ syndicates, members }) {
 
 export async function getStaticProps() {
   const team = getAllSortedMembers();
-  console.log(team);
   return {
     props: {
       syndicates: team.syndicates.sort((a, b) => {
