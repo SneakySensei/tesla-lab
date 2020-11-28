@@ -6,8 +6,6 @@ link: "https://tesla-lab.vercel.app/"
 authors:
   - name: "Snehil"
     link: "https://linkedin.com/in/snehilcodes"
-  - name: "Swarnabha Das"
-    link: "https://www.linkedin.com/in/swarnabha-das-2001official/"
 caption: "Well it's a website. What do you expect it to do?"
 ---
 
